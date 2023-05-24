@@ -10,6 +10,7 @@ public class Product {
 
 	@Id
 
+	//aaa
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 
 	private long productId;
