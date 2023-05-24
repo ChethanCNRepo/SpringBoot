@@ -10,14 +10,7 @@ public class Product {
 
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	//aa
-
-	//bb-eclipse
-
-
 	
-
-	//cc-git
 
 	private long productId;
 
