@@ -15,7 +15,7 @@ import com.fullstack.springreact.service.ProductService;
 @CrossOrigin("http://localhost:3000/")
 @RestController
 public class ProductController {
-
+//change
 	@Autowired
 	ProductService productService;
 
