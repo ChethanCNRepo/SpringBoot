@@ -11,6 +11,7 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	//aa
+	//bb-eclipse
 
 	private long productId;
 
