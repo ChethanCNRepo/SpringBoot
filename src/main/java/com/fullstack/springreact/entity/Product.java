@@ -13,13 +13,13 @@ public class Product {
 
 	@Id
 	@GeneratedValue(strategy=GenerationType.AUTO)
-	private long productId;
+	private Integer productId;
 	
 	
 	private String productType;
 	
 
-	private Integer price;
+	private long price;
 	
 
 	private String description;
@@ -28,12 +28,12 @@ public class Product {
 	private double cashBack;
 	
 	
-	public long getProductId() {
+	public Integer getProductId() {
 		return productId;
 	}
 
 
-	public void setProductId(long productId) {
+	public void setProductId(Integer productId) {
 		this.productId = productId;
 	}
 
@@ -48,12 +48,12 @@ public class Product {
 	}
 
 
-	public Integer getPrice() {
+	public long getPrice() {
 		return price;
 	}
 
 
-	public void setPrice(Integer price) {
+	public void setPrice(long price) {
 		this.price = price;
 	}
 
@@ -82,18 +82,11 @@ public class Product {
 	
 	}
 
-<<<<<<< HEAD
-=======
-
-<<<<<<< HEAD
 
 
 
-	public Product(long productId, String productType, double price, String description, Integer cashBack) {
 
-=======
->>>>>>> d666f5ba1411ce76f07a27ffb3bf3eaf3ddbbed8
-	public Product(Integer productId, String productType, Integer price, String description, Integer cashBack) {
+	public Product(Integer productId, String productType, long price, String description, Integer cashBack) {
 
 		super();
 		this.productId = productId;
