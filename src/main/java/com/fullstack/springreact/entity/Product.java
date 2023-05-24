@@ -12,7 +12,8 @@ public class Product {
 	
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	//aa
-
+	
+	//cc-git
 	private long productId;
 
 	private String productType;
