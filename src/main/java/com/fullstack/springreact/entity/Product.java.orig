@@ -83,11 +83,13 @@ public class Product {
 	}
 
 
+<<<<<<< HEAD
 
+	public Product(long productId, String productType, double price, String description, double cashBack) {
 
-
+=======
 	public Product(Integer productId, String productType, double price, String description, Integer cashBack) {
-
+>>>>>>> a72b007997c0450c1194e49bae94b056e0aadc58
 		super();
 		this.productId = productId;
 		this.productType = productType;
