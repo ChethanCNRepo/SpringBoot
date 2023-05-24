@@ -11,8 +11,13 @@ public class Product {
 	@Id
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	//aa
+<<<<<<< HEAD
 	//bb-eclipse
 
+=======
+	
+	//cc-git
+>>>>>>> 3e60ad84154cd9ca8c0a4edc00b4750c4208d005
 	private long productId;
 
 	private String productType;
