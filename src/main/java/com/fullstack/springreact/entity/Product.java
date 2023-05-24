@@ -25,7 +25,7 @@ public class Product {
 	private String description;
 	
 
-	private Integer cashBack;
+	private double cashBack;
 	
 	
 	public Integer getProductId() {
@@ -68,12 +68,12 @@ public class Product {
 	}
 
 
-	public Integer getCashBack() {
+	public double getCashBack() {
 		return cashBack;
 	}
 
 
-	public void setCashBack(Integer cashBack) {
+	public void setCashBack(double cashBack) {
 		this.cashBack = cashBack;
 	}
 
@@ -83,7 +83,7 @@ public class Product {
 	}
 
 
-	public Product(Integer productId, String productType, double price, String description, Integer cashBack) {
+	public Product(Integer productId, String productType, double price, String description, double cashBack) {
 		super();
 		this.productId = productId;
 		this.productType = productType;
