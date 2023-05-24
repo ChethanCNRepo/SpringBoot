@@ -9,13 +9,10 @@ import jakarta.persistence.Id;
 public class Product {
 
 	@Id
-<<<<<<< HEAD
+
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
-	private Integer productId;
-=======
-	@GeneratedValue(strategy = GenerationType.AUTO)
+
 	private long productId;
->>>>>>> 5cd447dd14aaad6533f4e6018d06a73798288d1b
 
 	private String productType;
 
