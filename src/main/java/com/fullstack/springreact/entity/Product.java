@@ -1,98 +1,80 @@
 package com.fullstack.springreact.entity;
 
-
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
-
 @Entity
 public class Product {
-	
 
 	@Id
-	@GeneratedValue(strategy=GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.AUTO)
 	private Integer productId;
-	
-	
+
 	private String productType;
-	
+
 	private String productName;
 
-	private long price;
-	
+	private Integer price;
 
 	private String description;
-	
 
-	private double cashBack;
-	
-	
+	private Integer cashBack;
+
 	public Integer getProductId() {
 		return productId;
 	}
-
 
 	public void setProductId(Integer productId) {
 		this.productId = productId;
 	}
 
-
 	public String getProductType() {
 		return productType;
 	}
 
-
 	public void setProductType(String productType) {
 		this.productType = productType;
 	}
+
 	public String getProductName() {
 		return productName;
 	}
-	public void setProductName(String productName){
-		this.productName=productName;
+
+	public void setProductName(String productName) {
+		this.productName = productName;
 	}
 
-	public long getPrice() {
+	public Integer getPrice() {
 		return price;
 	}
 
-
-	public void setPrice(long price) {
+	public void setPrice(Integer price) {
 		this.price = price;
 	}
-
 
 	public String getDescription() {
 		return description;
 	}
 
-
 	public void setDescription(String description) {
 		this.description = description;
 	}
 
-
-	public double getCashBack() {
+	public Integer getCashBack() {
 		return cashBack;
 	}
 
-
-	public void setCashBack(double cashBack) {
+	public void setCashBack(Integer cashBack) {
 		this.cashBack = cashBack;
 	}
 
-
 	public Product() {
-	
+
 	}
 
-
-
-
-
-	public Product(Integer productId, String productType, long price, String description, Integer cashBack) {
+	public Product(Integer productId, String productType, Integer price, String description, Integer cashBack) {
 
 		super();
 		this.productId = productId;
@@ -102,7 +84,4 @@ public class Product {
 		this.cashBack = cashBack;
 	}
 
-
-	
-	
 }
