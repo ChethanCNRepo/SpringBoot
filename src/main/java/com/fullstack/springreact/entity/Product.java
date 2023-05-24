@@ -10,6 +10,7 @@ public class Product {
 
 	@Id
 	//add
+	//bbb
 
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 
