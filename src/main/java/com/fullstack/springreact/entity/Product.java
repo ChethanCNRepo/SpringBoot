@@ -19,7 +19,7 @@ public class Product {
 	private String productType;
 	
 
-	private Integer price;
+	private double price;
 	
 
 	private String description;
@@ -48,12 +48,12 @@ public class Product {
 	}
 
 
-	public Integer getPrice() {
+	public double getPrice() {
 		return price;
 	}
 
 
-	public void setPrice(Integer price) {
+	public void setPrice(double price) {
 		this.price = price;
 	}
 
@@ -83,7 +83,7 @@ public class Product {
 	}
 
 
-	public Product(Integer productId, String productType, Integer price, String description, Integer cashBack) {
+	public Product(Integer productId, String productType, double price, String description, Integer cashBack) {
 		super();
 		this.productId = productId;
 		this.productType = productType;
