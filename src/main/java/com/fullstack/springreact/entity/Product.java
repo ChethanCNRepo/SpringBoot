@@ -18,6 +18,7 @@ public class Product {
 	
 	private String productType;
 	
+	private String productName;
 
 	private long price;
 	
@@ -46,7 +47,12 @@ public class Product {
 	public void setProductType(String productType) {
 		this.productType = productType;
 	}
-
+	public String getProductName() {
+		return productName;
+	}
+	public void setProductName(String productName){
+		this.productName=productName;
+	}
 
 	public long getPrice() {
 		return price;
