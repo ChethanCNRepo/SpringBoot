@@ -9,6 +9,7 @@ import jakarta.persistence.Id;
 public class Product {
 
 	@Id
+	//add
 
 	//aaa
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
